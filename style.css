@@ -1,10 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .clock-container ul li{
     display: inline-block;
     list-style-type: none;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 18px 20px;
     text-align: center;
     box-sizing: border-box;
     margin: 0 10px;
-    
+    box-shadow:
+    5px 2.8px 20px 2.2px rgba(0, 0, 0, 0.034),
+    5px 6.7px 5.3px 10px rgba(0, 0, 0, 0.048),
+    5px 12.5px 10px rgba(0, 0, 0, 0.06),
+    5px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    5px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    5px 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+     max-width: 100px;
+     border-radius: 5px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.clock-container ul{
+    margin: 15px 0;
+}
+.show-date{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ margin-top: 25px;
+}
+body{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 0px solid black;
+    padding: 20px 15px;
+    box-shadow: 0px 5px 8px 1px #d3d1d1, 0px 5px 8px 1px #d3d1d1, 0px 5px 8px 1px #d3d1d1;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 250px 0;
+}
+
