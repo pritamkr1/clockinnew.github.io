@@ -1,0 +1,9 @@
+.clock-container ul li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 18px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
